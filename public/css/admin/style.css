@@ -1,0 +1,87 @@
+@font-face {
+    font-family: IRANSans;
+    src: url('../../font/IRANSansWeb_Light.woff'),
+    url('../../font/IRANSansWeb_Light.woff') format('truetype');
+    font-weight: normal;
+}
+body {
+    font-family:IRANSans;
+    font-size: 14px;
+    background-color: #f4f1ea;
+    font-family: Tahoma;
+
+}
+
+
+.product-image-gallery {
+    background-color: #fefefe;
+    padding: 1.5rem;
+}
+
+.pdp-product-image {
+    margin-bottom: 20px;
+}
+
+.product-thumbs a {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0 !important;
+}
+
+.product-thumbs a img {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: solid 4px #fefefe;
+    border-radius: 0;
+    box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+    line-height: 0;
+    border-radius: 3px;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.box-shadow{
+    box-shadow: 0px 0px 8px #dedede;
+
+}
+.text-decoration-none{
+    text-decoration: none!important;
+}
+.text-light-gray{
+
+    color: #dedede!important;
+    text-decoration: none!important;
+}
+.bg-dark-blue{
+    background-color: #263544;
+}
+
+.sidebar-full-height{
+    min-height: Calc(100vh - 48px)!important;
+}
+.background-hover li:hover{
+    background-color: #1d2531;
+}
+.active-menu{
+    border-color:#42a5f5!important;
+    border-width: 4px!important;
+    background-color: #1d2531;
+}
+.dropdown-menu-right-costumize{
+    top: 29px;
+    left: 0;
+}
+
+.slide-width-200{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
